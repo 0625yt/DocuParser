@@ -21,8 +21,6 @@ import kr.dogfoot.hwplib.object.bodytext.paragraph.text.HWPCharControlInline;
 import kr.dogfoot.hwplib.object.bodytext.paragraph.text.HWPCharNormal;
 import kr.dogfoot.hwplib.object.etc.HWPString;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

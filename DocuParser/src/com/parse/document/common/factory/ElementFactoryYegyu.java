@@ -1,16 +1,10 @@
 package com.parse.document.common.factory;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import com.parse.document.common.Const;
-import com.parse.document.common.Util;
 import com.parse.document.common.enums.ContentsType;
-import com.parse.document.common.enums.ElementType;
-import com.parse.document.common.parse.CellElement;
 import com.parse.document.common.parse.ParagraphElement;
-import com.parse.document.common.parse.RowElement;
-import com.parse.document.common.parse.TableElement;
 
 /**
  * ElementFactory 클래스는 다양한 요소(Element)를 생성하는 역할을 합니다. 이 클래스는 주어진 텍스트를 분석하여 해당

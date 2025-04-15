@@ -13,11 +13,7 @@ import java.util.regex.Pattern;
 
 import org.json.simple.JSONArray;
 
-import com.parse.document.common.enums.ContentsType;
-import com.parse.document.common.enums.ElementType;
 import com.parse.document.common.parse.AbstractElement;
-import com.parse.document.common.parse.CellElement;
-import com.parse.document.common.parse.Outline;
 import com.parse.document.common.parse.RowElement;
 import com.parse.document.common.parse.TableElement;
 

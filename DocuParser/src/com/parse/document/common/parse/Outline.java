@@ -1,10 +1,8 @@
 package com.parse.document.common.parse;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import com.parse.document.common.enums.ContentsType;
-import com.parse.document.common.enums.ElementType;
 
 public class Outline {
 

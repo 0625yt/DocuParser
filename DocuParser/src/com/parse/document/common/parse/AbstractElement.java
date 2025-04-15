@@ -3,9 +3,6 @@ package com.parse.document.common.parse;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-
 import com.parse.document.common.enums.ContentsType;
 import com.parse.document.common.enums.ElementType;
 

@@ -1,7 +1,5 @@
 package com.parse.document.common.factory;
 
-import java.util.regex.Pattern;
-
 import com.parse.document.common.Const;
 import com.parse.document.common.Util;
 import com.parse.document.common.enums.ContentsType;
