@@ -46,16 +46,46 @@ CLI(명령줄 인터페이스)를 사용하거나 해당 라이브러리를 프�
 
 #### DOCX 파일 파싱 예제
 ```java
-DocxParser parser = new DocxParser();
-DocumentData docData = parser.parse("example.docx");
-System.out.println(docData.toJson());
+	private DocumentExtractorDocx documentExtractorDocx = new DocumentExtractorDocx();
+	private boolean toJson = false;
+
+	public static void main(String[] args) {
+		DataExtractContext context = new DataExtractContext();
+
+		ParsingOutputDocx testInstance = new ParsingOutputDocx();
+		testInstance.makeValue(context, testInstance.toJson);
+	}
+
+	public void makeValue(DataExtractContext context, boolean toJson) {
+		getDocxFiles(context, Const.YACK_GUAN_NAME);
+		try {
+			processDocument(context, Const.YACK_GUAN_NAME, documentExtractorDocx, toJson);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 ```
 
 #### HWP 파일 파싱 예제
 ```java
-HwpParser parser = new HwpParser();
-DocumentData docData = parser.parse("example.hwp");
-System.out.println(docData.toJson());
+	private DocumentExtractorHwp documentExtractorHwp = new DocumentExtractorHwp();
+	private boolean toJson = false;
+
+	public static void main(String[] args) {
+		DataExtractContext context = new DataExtractContext();
+
+		ParsingOutputHwp testInstance = new ParsingOutputHwp();
+		testInstance.makeValue(context, testInstance.toJson);
+	}
+
+	public void makeValue(DataExtractContext context, boolean toJson) {
+		getHWPFile( context, Const.YACK_GUAN_NAME);
+		try {
+			processDocument(context, Const.YACK_GUAN_NAME, documentExtractorHwp, toJson);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 ```
 
 ### 데이터 변환
