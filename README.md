@@ -92,7 +92,7 @@ DocuParser은 추출된 데이터를 JSON, CSV 또는 XML로 변환할 수 있�
 ```
 DocuParser/
 ├── src/
-│   ├── parsers/               # DOCX, HWP 등 다양한 문서 포맷의 파싱 로직
+│   ├── parsers/               # DOCX, HWP, Excel 등 다양한 문서 포맷의 파싱 로직
 │   │   ├── DocxParser.java
 │   │   ├── HwpParser.java
 │   │   └── AbstractParser.java
