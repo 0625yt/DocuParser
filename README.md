@@ -91,8 +91,10 @@ DocuParser/
 │   │   │   │   │   ├── document/
 │   │   │   │   │   │   ├── DataExtractContext.java
 │   │   │   │   │   │   ├── DocumentExtractorDocx.java
+│   │   │   │   │   │   ├── ... (기타 문서 Handling 클래스)
 │   │   │   │   │   │   ├── common/
 │   │   │   │   │   │   │   ├── Const.java
+│   │   │   │   │   │   │   ├── ... (기타 Util 클래스)
 │   │   │   │   │   │   │   ├── enums/
 │   │   │   │   │   │   │   │   ├── ContentsType.java
 │   │   │   │   │   │   │   │   ├── ElementType.java
@@ -102,6 +104,7 @@ DocuParser/
 │   │   │   │   │   │   │   ├── parse/
 │   │   │   │   │   │   │       ├── AbstractElement.java
 │   │   │   │   │   │   │       ├── ParagraphElement.java
+│   │   │   │   │   │   │   │   ├── ... (기타 Element 클래스)
 └── README.md
 ```
 
